@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    width: 900px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px; /* 圆润整体容器的边 */
+}
+
+.font-selector {
+    width: 40%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fontFile {
+    font-size: 18px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 2px solid #ccc;
+    border-radius: 10px; /* 圆润文件选择按钮的边 */
+    cursor: pointer;
+}
+
+#fontFile:focus {
+    outline: none;
+}
+
+.divider {
+    border-left: 1px solid #ccc;
+}
+
+.text-preview {
+    width: 60%;
+    padding: 20px;
+}
+
+select, input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border-radius: 10px; /* 圆润输入框的边 */
+}
+
+textarea {
+    height: 120px;
+}
+
+#fontOutput {
+    margin: 10px 0;
+    font-size: 18px;
+    border-radius: 10px; /* 圆润字体名称的边 */
+}
+
+#textOutput {
+    margin-top: 20px;
+    font-size: 22px;
+    border-radius: 10px; /* 圆润文本框的边 */
+}
