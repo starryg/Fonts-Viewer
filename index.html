@@ -6,17 +6,35 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    
     <div class="container">
-        
-        <div class="font-selector">
-            <input type="file" id="fontFile" accept=".ttf, .otf">
+        <!-- 三个字体测试模块 -->
+        <div class="font-test">
+            <div class="font-selector">
+                <!-- 文件选择输入 -->
+                <input type="file" class="font-file-input" accept=".ttf, .otf">
+            </div>
+            <div class="text-preview">
+                <!-- 固定的文字 -->
+                <div class="fixed-text">这是一个字体测试</div>
+            </div>
         </div>
-        <div class="divider"></div>
-        <div class="text-preview">
-            <textarea id="textInput" placeholder="在这里输入文字"></textarea>
-            <div id="fontOutput">字体: 默认字体</div>
-            <div id="textOutput">这是示例文本</div>
+        
+        <div class="font-test">
+            <div class="font-selector">
+                <input type="file" class="font-file-input" accept=".ttf, .otf">
+            </div>
+            <div class="text-preview">
+                <div class="fixed-text">这是一个字体测试</div>
+            </div>
+        </div>
+        
+        <div class="font-test">
+            <div class="font-selector">
+                <input type="file" class="font-file-input" accept=".ttf, .otf">
+            </div>
+            <div class="text-preview">
+                <div class="fixed-text">这是一个字体测试</div>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
